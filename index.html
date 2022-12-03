@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <Style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+        
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-color: #272727;
+        }
+        .titulo {
+            font-family: 'Raleway';
+            font-style: bold;
+            font-size: 59px;
+            text-align: center;
+            font-weight: 700;
+            color: white;
+            
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            background-color: #CA7900;
+            width: 80%;
+            height: 30%;
+            border-radius: 40px;            
+
+            }
+        
+        .card p {
+            color: white;
+            font-size: 45px;
+            
+        }
+
+        .cardBotao {
+            display: flex;
+            justify-content: space-around;            
+            width: 35%;
+        }
+
+        .cardBotao button{
+            padding: 5px 30px;
+            background-color: #CA7900;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            border: 5px solid white;
+            border-radius: 14px;
+            cursor: pointer;
+        }
+        .cardBotao button:hover{
+            background-color:white;
+            color:#CA7900;
+            transition: 2s;    
+        }
+
+    </Style>
+</head>
+<body>
+    <div class="titulo">
+        <p>Bem-vindo à<br>
+        Cervejaria do Pericles Delivery</p>
+    </div>
+    <div class="card">
+        <p>Você é maior de 18 anos</p>
+        <div class="cardBotao">
+            <button>Sim</button>
+            <button>Não</button>
+        </div>
+        
+    </div>
+</body>
+</html>
